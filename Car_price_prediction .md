@@ -14,4 +14,19 @@ If you have any query related data you can freely post your query
        'Make'
        
 # Data Cleaning:
-
+       The Data cleaning includes Exploration of the data as well as, transformation of the data for the usefull analysis.
+       Here the price of the car is the problem statement.
+       So, the bi-variate analysis made for analysing the features which is making significant difference in the car price.
+       Which is shown in EDA.
+       Price Vs Origin: says that the cars price are recorded as both inside and outside of USA.
+       Price Vs Cylinders : It says the variation in the price according to the number of cylinders. But using boxplot we can say that there are significant different in the each cylinder for the price prediction. so, we can include this feature for predicting our column.
+       Price Vs Airbags: Since different catagories in the airbag feature making  the significant difference in the price, so it is also taken into consideration for making the analysis.
+       Here, the 'Man.Trans.Avai' feature has the string column as 'Yes' and 'No'. Here the 'Yes' says that avalability of manual transmission 'No' says that automatic transmission. So, this particular feature is label encoded as 0 and 1, wheer 0 as manula transmission and 1 as automatic transmission.
+       The 'airbag' column has 3 different catagories as 'Airbags for Drivers and Passengers', 'Airbags for Drivers only' and 'None'. These 3 catagories are created as dummay variable columns in the data set for further analysis. 
+       The 'Drive Train' column has the 3 catagories as 'Front' as front wheel drive, 'Rear' as rear wheel drive and '4WD' says that 4 wheel drive', so these feature is also created dummies for including in to the analysis. 
+       The 'Cylinders' feature are created with dummies for the model building.
+       After, creating the dummies, we can drop the original columns before building the model. 
+       These detaied steps are followed in the Exploratory data analysis.
+    
+# Model Building
+       
